@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://kit.fontawesome.com/512a7b671f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <title>Hotel</title>
+  </head>
+  <body>
+    <section class="hero-section">
+      <div class="hero-text">
+        <h1>Welcome to Paradise Hotel</h1>
+        <p>
+          We Provide rooms at a very good price along with amenities to make
+          your living experience awesome
+        </p>
+        <button class="book-button">Book</button>
+      </div>
+    </section>
+    <h1 class="about-heading">About Us</h1>
+    <section class="about-section">
+      
+      <div class="about-us">
+        <p>
+          Looking for a vacation to leave behind the hustel of everybay life and
+          include in world-class hospitality at exotic locations? look no
+          further than the leading & fastest growing hotel chain of eastern
+          India, Hotel Paradise. your unwinding days with us will be the perfect
+          blend of lesiure, comfort, convenience & class.
+        </p>
+        <br>
+        <p>
+          We are currently present at Puri, Mandarmoni, Kolaghat, Tarapith,
+          Darjeeling, Taki & Sundarban to make your well deserved vacation a
+          truely unforgettable affair.
+        </p>
+        <button class="know-button">Know More....</button>
+      </div>
+      <div class="amenities">
+        <h3>Aminities we have:</h3>
+        <ul>
+          <li><i class="fa-solid fa-wifi"></i>High Speed Internet</li>
+          <li><i class="fa-solid fa-utensils"></i>Complementary Breakfast</li>
+          <li><i class="fa-solid fa-person-swimming"></i>Swimming</li>
+          <li><i class="fa-solid fa-dumbbell"></i>Gym</li>
+          <li><i class="fa-solid fa-mug-saucer"></i>Cafeteria</li>
+        </ul>
+      </div>
+    </section>
+    <h1 class="room-heading">Room Types</h1>
+    <section class="room-type-container">
+      
+      <div class="room-images">
+        <img src="./romm.webp" alt="room image">
+      </div>
+      <div class="room-list">
+        <h4>Single Occupancy Room</h4>
+        <p>A room size or area of Single Rooms are generally between 37 to 45 metersquares.</p>
+        <h4>Family Room</h4>
+        <p>A parlour or living room connected with one or more bedrooms. (A room with one or more bedrooms and a seperate living space.)
+          The room size or area of suite rooms generally between 70 to 100 metersquares.
+        </p>
+        <h4>Duplex Room</h4>
+        <p>The most expensive room provided by a hotel. Usually, only one suplex suite is available in one single hotel
+          property. Similar to the normal suites, a Duplex suite always has one or more bedrooms and a living space with a 
+          strong emphasis on grand in-room decoration, high-quality amenities and supplies, and tailor-made services (e.g.personal butler during the stay).
+        </p>
+      </div>
+    </section>
+    <div class="help-button">
+      <h4>Need Help?</h4>
+    </div>
+    <h2 class="form-heading">Fill the form for booking room</h2>
+    <section class="form-container">
+      <form>
+        <div class="form-group">
+          <label for="name">Your Full Name</label><br>
+          <input type="text" id="name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email ID</label><br>
+          <input type="email" id="email" required>
+        </div>
+        <div class="form-group">
+          <label for="booking-date">Date of Booking</label><br>
+          <input type="date" id="booking-date" required>
+        </div>
+        <div class="form-group">
+          <label for="room-type">Select Room Type</label><br>
+          <select name="room-type" id="room-type" required>
+            <option value="" selected disabled>Select...</option>
+            <option value="singlr room">Single Room</option>
+            <option value="Family room">Family Room</option>
+            <option value="Duplex room">Duplex Room</option>
+          </select>
+        </div>
+        <input type="submit" value="Book">
+      </form>
+    </section>
+  </body>
+</html>
